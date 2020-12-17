@@ -2,10 +2,11 @@
 /*This file has the variable for connecting
 **with mysql database.
 */
-$hn = 'sql203.epizy.com';
-$db = 'covid19';
-$un = 'epiz_27482400';
-$pw = 'aWgMLaM0W6pPD';	
+$hn = 'sql301.epizy.com';
+$db = 'epiz_27371223_covid19';
+$un = 'epiz_27371223';
+$pw = 'OtSnD5eBpm';
+
 
 //connect to the database
 $conn = mysqli_connect($hn, $un, $pw, $db);
